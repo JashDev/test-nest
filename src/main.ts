@@ -14,6 +14,7 @@ async function main() {
       // },
     }),
   );
+  app.enableCors();
   await app.listen(7000);
 }
 main();
